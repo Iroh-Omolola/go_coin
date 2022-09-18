@@ -82,7 +82,7 @@ return (
           </div>
         </div>
 
-        <div className="flex w-[100%]  xl:flex-row  flex-col space-x-4  justify-between   mt-12 text-purple-900">
+        <div className="flex w-[100%]  xl:flex-row  flex-col space-x-4 xl:space-y-0 space-y-9 justify-between   mt-12 text-purple-900">
           <div className="flex md:flex-row  flex-col h-full xl:w-full w-full   ">
             <div className="flex md:flex-row flex-col xl:flex-col md:space-x-3 md:space-y-0 space-y-10  xl:space-y-10">
               <WideCard
@@ -95,12 +95,12 @@ return (
               />
             </div>
           </div>
-          <div className="flex h-full w-full border ">
-            <div className="h-full w-full border mt-4 md:mt-0  ">
+          <div className="flex h-full w-full  ">
+            <div className="h-full w-full  mt-4 md:mt-0  ">
               <div className="xs:flex-row flex-col flex w-full mx-auto ml-[-20px] xl:ml-0 rounded-2xl   border border-blackAlpha-880">
-                <div className="w-full   mt-3 h-[550px] bg-white shadow shadow-blackAlpha-880 2xl:px-4  3xl:px-8">
+                <div className="w-full mt-3 h-[550px] bg-white shadow shadow-blackAlpha-880 2xl:px-4  3xl:px-8">
                   <div className="flex  xs:flex-row flex-col w-full  space-x-1 border-b  border-b-blackAlpha-880 py-11 mb-2">
-                    <div className="flex xs:flex-row w-[90%] md:w-[100%] 2xl:w-[90%]  flex-col  space-x-3 space-y-3   mx-auto ">
+                    <div className="flex xs:flex-row w-[90%] justify-center md:w-[100%] 2xl:w-[90%]  flex-col  space-x-3 space-y-3   mx-auto ">
                       <div className="flex space-x-3">
                         <div className="">
                           <div className="md:w-20 w-10 h-10 rounded-lg md:h-20 bg-red-500"></div>
@@ -135,8 +135,8 @@ return (
                       </div>
                     </div>
                   </div>
-                  <div className="flex   xs:flex-row flex-col w-full  space-x-1 border-b  border-b-blackAlpha-880 py-11 mb-2">
-                    <div className="flex xs:flex-row w-[90%] md:w-[100%] 2xl:w-[90%] flex-col  space-x-3 space-y-3  mx-auto ">
+                  <div className="flex xs:flex-row flex-col w-full  space-x-1 border-b border-b-blackAlpha-880 py-11 mb-2">
+                    <div className="flex  xs:flex-row w-[90%] justify-center md:w-[100%] 2xl:w-[90%] flex-col  space-x-3 space-y-3  mx-auto">
                       <div className="flex space-x-3">
                         <div className="">
                           <div className="md:w-20 w-10 h-10 rounded-lg md:h-20 bg-red-500"></div>
@@ -171,8 +171,8 @@ return (
                       </div>
                     </div>
                   </div>
-                  <div className="flex   xs:flex-row flex-col w-full  space-x-1 py-11 mb-2">
-                    <div className="flex xs:flex-row w-[90%] md:w-[100%] 2xl:w-[90%] flex-col  space-x-3 space-y-3   mx-auto ">
+                  <div className="flex xs:flex-row flex-col w-full  space-x-1 py-11 mb-2">
+                    <div className="flex xs:flex-row w-[90%] md:w-[100%] 2xl:w-[90%] justify-center flex-col  space-x-3 space-y-3   mx-auto ">
                       <div className="flex space-x-3">
                         <div className="">
                           <div className="md:w-20 w-10 h-10 rounded-lg md:h-20 bg-red-500"></div>
@@ -214,7 +214,6 @@ return (
         </div>
       </div>
     </div>
-
   </Layout>
 );};
 
