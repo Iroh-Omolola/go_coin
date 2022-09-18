@@ -13,8 +13,8 @@ const ShopPage = () => {
             </h1>
           </div>
         </div>
-        <div className="flex w-full space-x-9">
-          <div className="border ml-[150px] border-blackAlpha-880 rounded-2xl w-[300px] h-[300px]">
+        <div className="flex w-full space-x-9 lg:px-[150px] px-[50px]">
+          <div className="border  border-blackAlpha-880 rounded-2xl w-[300px] h-[300px]">
             <div className="px-7 py-7">
               <h1 className="text-[25px] text-left mb-9 text-blackAlpha-200">
                 Your Credit
@@ -42,16 +42,16 @@ const ShopPage = () => {
             </div>
           </div>
           <div className="w-full">
-            <div className="rounded-2xl h-[400px] w-[90%] shadow-sm shadow-whiteShadow mb-7 ">
-              <div className="px-9 pt-7 ">
+            <div className="rounded-2xl h-auto w-full border shadow-sm shadow-whiteShadow mb-7 ">
+              <div className="px-9  pt-7 min-h-[400px] ">
                 <h1 className="text-[24px] mb-7">Refferal link</h1>
-                <p className="mb-7 text-[18px] w-[50%]">
+                <p className="mb-7 text-[18px] border w-full xl:w-[70%] 2xl:w-[50%]">
                   Your earn 5% of the Coins your referrals earn through an offer
                   ! Give them this link to sign up and you’re good to go
                 </p>
                 <p className="text-[18px]">Your Referral Link</p>
                 <div
-                  className={`w-[60%] h-[55px] mt-7 rounded-full  bg-purple-900`}
+                  className={`xl:w-[60%] w-full h-[55px] mt-7 rounded-full  bg-purple-900`}
                 >
                   <div className="flex justify-between  py-3 mb-5 px-6">
                     <h6 className="text-center text-white text-[20px] ">
@@ -71,9 +71,7 @@ const ShopPage = () => {
                 </div>
               </div>
             </div>
-            <div className="rounded-2xl h-[300px] w-[90%] shadow-sm shadow-whiteShadow ">
-              
-            </div>
+            <div className="rounded-2xl h-[400px] w-full  shadow-sm shadow-whiteShadow mb-7 "></div>
           </div>
         </div>
       </div>
